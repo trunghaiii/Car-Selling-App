@@ -8,5 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class CarFeatures extends Model
 {
     use HasFactory;
+
+    public $timestamps = false;
     
 }
